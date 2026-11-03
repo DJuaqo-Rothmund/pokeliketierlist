@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "1.52.8-halloween-meta",
+  "generatedAt": "2026-11-03T22:31:10Z",
+  "event": {
+    "id": "halloween",
+    "name": "Evento de Halloween",
+    "focus": "Farmeo masivo de caramelos",
+    "currency": "Caramelos de Halloween"
+  },
+  "tiers": [
+    "S+",
+    "S",
+    "A",
+    "B",
+    "C"
+  ],
+  "pokemon": [
+    {
+      "id": "darkrai",
+      "name": "Darkrai",
+      "region": "Sinnoh",
+      "tier": "S+",
+      "types": [
+        "Siniestro"
+      ],
+      "role": "Farmeo de Evento (AoE)",
+      "isLegendary": true,
+      "stats": {
+        "hp": 1200,
+        "speedPercent": 115,
+        "attackMultiplier": 1.52,
+        "attackStat": "SpA"
+      },
+      "kecleonNature": {
+        "name": "Modesta",
+        "increases": "SpA",
+        "decreases": "Atk",
+        "candyFarmNote": "Maximiza el daño en área para limpiar oleadas y recoger caramelos más rápido."
+      },
+      "ability": {
+        "name": "Mal Sueño",
+        "nameEn": "Bad Dreams",
+        "description": "Daño pasivo en área"
+      },
+      "item": {
+        "name": "Garra Rápida",
+        "effect": "+20% Recarga / Farmeo"
+      },
+      "moves": [
+        {
+          "id": "darkrai-pulso-umbrio",
+          "slot": 1,
+          "name": "Pulso Umbrío",
+          "category": "Especial",
+          "goldenCard": "Sprint",
+          "goldenCardEffect": "Ondas Múltiples"
+        },
+        {
+          "id": "darkrai-bola-sombra",
+          "slot": 2,
+          "name": "Bola Sombra",
+          "category": "Especial",
+          "goldenCard": "Reflejos",
+          "goldenCardEffect": "Perforación"
+        },
+        {
+          "id": "darkrai-maquinacion",
+          "slot": 3,
+          "name": "Maquinación",
+          "category": "Buff",
+          "goldenCard": "Poder",
+          "goldenCardEffect": "Buff Máximo"
+        },
+        {
+          "id": "darkrai-endurecer",
+          "slot": 4,
+          "name": "Endurecer",
+          "nameEn": "Harden",
+          "category": "Defensivo",
+          "goldenCard": "Armadura",
+          "goldenCardEffect": "80% Reducción"
+        }
+      ],
+      "rank": 1,
+      "display": {
+        "attack": "×1.52 SpA",
+        "speed": "115%",
+        "nature": "Modesta (+SpA, -Atk)"
+      }
+    },
+    {
+      "id": "mewtwo",
+      "name": "Mewtwo",
+      "region": "Kanto",
+      "tier": "S+",
+      "types": [
+        "Psíquico"
+      ],
+      "role": "Glass Cannon / Eventos",
+      "isLegendary": true,
+      "stats": {
+        "hp": 1100,
+        "speedPercent": 120,
+        "attackMultiplier": 1.55,
+        "attackStat": "SpA"
+      },
+      "kecleonNature": {
+        "name": "Miedosa",
+        "increases": "Vel",
+        "decreases": "Atk",
+        "candyFarmNote": "Más velocidad = más recorrido del mapa y más caramelos recogidos por partida."
+      },
+      "ability": {
+        "name": "Presión",
+        "nameEn": "Pressure",
+        "description": "Reduce cooldowns de élites"
+      },
+      "item": {
+        "name": "Vidasfera",
+        "effect": "+30% Daño / -10% HP"
+      },
+      "moves": [
+        {
+          "id": "mewtwo-ondas-mentales",
+          "slot": 1,
+          "name": "Ondas Mentales",
+          "category": "Especial",
+          "goldenCard": "Poder",
+          "goldenCardEffect": "Daño Bruto"
+        },
+        {
+          "id": "mewtwo-psicorrayo",
+          "slot": 2,
+          "name": "Psicorrayo",
+          "category": "Especial",
+          "goldenCard": "Reflejos",
+          "goldenCardEffect": "Cadencia"
+        },
+        {
+          "id": "mewtwo-recuperacion",
+          "slot": 3,
+          "name": "Recuperación",
+          "category": "Curación",
+          "goldenCard": "Síntesis",
+          "goldenCardEffect": "Regen Pasiva"
+        },
+        {
+          "id": "mewtwo-barrera",
+          "slot": 4,
+          "name": "Barrera",
+          "category": "Defensivo",
+          "goldenCard": "Vigor",
+          "goldenCardEffect": "Escudo Extra"
+        }
+      ],
+      "rank": 2,
+      "display": {
+        "attack": "×1.55 SpA",
+        "speed": "120%",
+        "nature": "Miedosa (+Vel, -Atk)"
+      }
+    },
+    {
+      "id": "slaking",
+      "name": "Slaking",
+      "region": "Hoenn",
+      "tier": "S",
+      "types": [
+        "Normal"
+      ],
+      "role": "Tanque Físico / F2P Top",
+      "isLegendary": false,
+      "stats": {
+        "hp": 2400,
+        "speedPercent": 95,
+        "attackMultiplier": 1.58,
+        "attackStat": "Atk"
+      },
+      "kecleonNature": {
+        "name": "Firme",
+        "increases": "Atk",
+        "decreases": "SpA",
+        "candyFarmNote": "Su ataque especial no se usa, así que la penalización es gratis; aguanta oleadas largas de farmeo."
+      },
+      "ability": {
+        "name": "Ausente Modificado",
+        "nameEn": "Truant (modificado)",
+        "description": "Burst masivo cada 5s"
+      },
+      "item": {
+        "name": "Cinta Fuerte",
+        "effect": "+15% Daño Físico"
+      },
+      "moves": [
+        {
+          "id": "slaking-golpe-cuerpo",
+          "slot": 1,
+          "name": "Golpe Cuerpo",
+          "category": "Físico",
+          "goldenCard": "Poder",
+          "goldenCardEffect": "Impacto Área"
+        },
+        {
+          "id": "slaking-terremoto",
+          "slot": 2,
+          "name": "Terremoto",
+          "category": "Físico",
+          "goldenCard": "Reflejos",
+          "goldenCardEffect": "Ondas Sísmicas"
+        },
+        {
+          "id": "slaking-corpulencia",
+          "slot": 3,
+          "name": "Corpulencia",
+          "category": "Buff",
+          "goldenCard": "Vigor",
+          "goldenCardEffect": "Vida Máxima"
+        },
+        {
+          "id": "slaking-descanso",
+          "slot": 4,
+          "name": "Descanso",
+          "category": "Curación",
+          "goldenCard": "Síntesis",
+          "goldenCardEffect": "Curación Total"
+        }
+      ],
+      "rank": 3,
+      "display": {
+        "attack": "×1.58 Atk",
+        "speed": "95%",
+        "nature": "Firme (+Atk, -SpA)"
+      }
+    }
+  ]
+}
